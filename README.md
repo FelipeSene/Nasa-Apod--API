@@ -37,7 +37,7 @@
  Aplicativo em desenvolvimento para pessoas amantes de fotografias, podendo publicar lindas imagens diariamente e consulta-las quando quiser!
  Tradução: Uma biblioteca Java para acessar a API Picture of the Day (APOD) baseada em HTTP. Esta aplicação está disponivel para celulares antigos e modernos.
   <br><br>
- *Dupla:* Eduardo Andreolli e Leonardo Mazzuco | 3° DS | Programação Mobile (*Prof°:* Aline Firmino Brito)<br>
+ *Dupla:* Eduardo Andreolli e Felipe Sene | 3° DS | Programação Mobile (*Prof°:* Aline Firmino Brito)<br>
 
 <bR>
   
@@ -109,17 +109,19 @@
     
 
 <details close="classe">
-  
-  
 <summary><b>Diagrama de Classes</summary></b>
 <h1 align="center"><img src= "https://user-images.githubusercontent.com/101806906/236333540-a177615d-d392-4181-8856-78278e4c858d.png" heigth="800px" width="1000px"/></h1>
   </details>
+  
 <details close="classe">
-
   <summary><b>Diagrama de Banco de Dados</summary></b>
 <h1 align="center"><img src= "https://user-images.githubusercontent.com/101806906/236333781-351b50b2-5cfb-44c1-82ca-3d90379c73d6.png" heigth="800px" width="1000px"/></h1>
 </details>
 
+<details close="classe">
+  <summary><b>Diagrama MER</summary></b>
+<h1 align="center"><img src= "https://user-images.githubusercontent.com/101806906/236333781-351b50b2-5cfb-44c1-82ca-3d90379c73d6.png" heigth="800px" width="1000px"/></h1>
+</details>
    
    <br>
    
