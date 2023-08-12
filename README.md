@@ -120,7 +120,7 @@
 
 <details close="classe">
   <summary><b>Diagrama MER</summary></b>
-<h1 align="center"><img src= "https://github.com/FelipeSene/Nasa-Apod--API/assets/91497871/498ab871-1e08-42a9-870a-04fbaa70bc02" heigth="800px" width="1000px"/></h1>
+<h1 align="center"><img src= "https://github.com/FelipeSene/Nasa-Apod--API/assets/91497871/18e5badc-10b9-46b1-8c64-c4e26bfee6f9" heigth="800px" width="1000px"/></h1>
 </details>
    
    <br>
