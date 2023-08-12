@@ -120,7 +120,7 @@
 
 <details close="classe">
   <summary><b>Diagrama MER</summary></b>
-<h1 align="center"><img src= "https://user-images.githubusercontent.com/101806906/236333781-351b50b2-5cfb-44c1-82ca-3d90379c73d6.png" heigth="800px" width="1000px"/></h1>
+<h1 align="center"><img src= "https://github.com/FelipeSene/Nasa-Apod--API/assets/91497871/498ab871-1e08-42a9-870a-04fbaa70bc02" heigth="800px" width="1000px"/></h1>
 </details>
    
    <br>
@@ -140,10 +140,7 @@
   
   </details>
    
- 
 
-
-   
  <details close="Mapa"> 
   
 <summary><b>Mapa de Navegação:</summary></b>
@@ -159,12 +156,3 @@
 <summary><b>Descrição e funcionalidades da aplicação:</summary></b>
      <h3 <i class="devicon-firebase-plain"></i>     A aplicação de baseia em um amplo conjunto de dados referentes as belezas da astronomia. Baseando-se no conceito proposto, foi escolhido uma API (POD - NASA) que se encaixe perfeitamente, a qual tem o objetivo de fornecer imagens sobre distintas paisagens do céu. Com o login feito, o usuário terá acesso a grade de imagens que a API proporciona, podendo consulta-las aleatoriamente ou por datas, recebendo um URL como resultado para poder visualiza-las e favorita-las quando quiser. Ademais, a aplicação possui telas informativas referentes aos sistemas galácticos, com o intuito de agregar informações mais relevantes e precisas.</h3><BR><BR>
   </details>
-   
-  <br>
-  
-  
-
-  ## ✅ Será usado:
-   - `Java `
-   - `Android `
-   - `Paradigma de orientação a objetos `
