@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RYG4qBkD9F9xRci02XdaILoFycfXyWb7ZJKWNacQfRM=",
+  "Source": "ApiPlanetas",
+  "BasePath": "_content/ApiPlanetas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
