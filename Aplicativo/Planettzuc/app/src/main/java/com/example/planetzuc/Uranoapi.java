@@ -64,7 +64,7 @@ public class Uranoapi extends AppCompatActivity {
         // namesakeTextView = findViewById(R.id.namesakeTextView);
         textureUrl = findViewById(R.id.spaceTextureImageView);
 
-        String planetUrl = "https://planets-17f2.onrender.com/planets/getPlanet?name=uranus";
+        String planetUrl = "https://localhost:7218/api/Planeta";
         FetchPlanetDataTask task = new FetchPlanetDataTask();
         task.execute(planetUrl);
     }
@@ -91,18 +91,10 @@ public class Uranoapi extends AppCompatActivity {
                 bufferedReader.close();
                 inputStream.close();
                 connection.disconnect();
-
+                
                 JSONObject jsonObject = new JSONObject(jsonResponse);
-
+                
                 String name = jsonObject.optString("name", "");
-                String tagline = jsonObject.optString("tagline", "");
-                String taglineIcon = jsonObject.optString("tagline_icon", "");
-                String pictureUrl = jsonObject.optString("picture", "");
-                String textureUrl = jsonObject.optString("textureUrl", "");
-                String description = jsonObject.optString("description", "");
-                String distanceFromSun = jsonObject.optString("distanceFromSun", "");
-                String yearLength = jsonObject.optString("yearLength", "");
-                String namesake = jsonObject.optString("namesake", "");
                 String spaceTextureUrl = jsonObject.optString("spaceTexture_url", "");
 
                 return new PlanetaDate(name, tagline, taglineIcon, pictureUrl, textureUrl, description, distanceFromSun, yearLength, namesake, spaceTextureUrl);
@@ -110,9 +102,11 @@ public class Uranoapi extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            return null;
-        }
+             return null;
+         }
 
+
+        
         @Override
         protected void onPostExecute(PlanetaDate planetData) {
             if (planetData != null) {
