@@ -12,9 +12,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 
-
 import androidx.appcompat.app.AppCompatActivity;
-
 
 public class Usuario extends AppCompatActivity implements View.OnClickListener {
 
@@ -77,7 +75,7 @@ public class Usuario extends AppCompatActivity implements View.OnClickListener {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Usuario.this, buscaplaneta.class);
+                 Intent intent = new Intent(Usuario.this, buscaplaneta.class);
                 startActivity(intent);
             }
         });
